@@ -1,0 +1,17 @@
+.{
+    .name = .mustach,
+    .version = "1.4.2-dev",
+    .fingerprint = 0x3261b3e455fb6b78,
+
+    .dependencies = .{
+        .upstream = .{
+            .url = "git+https://gitlab.com/jobol/mustach?ref=master#32ba6c6bd5ad376f0cf905710355f53c88d79233",
+            .hash = "N-V-__8AAF-BBAAcHiYzeiQWYBscothCbxjjJAEwyZz-yQvk",
+        },
+    },
+
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+    },
+}
